@@ -13,16 +13,16 @@ public class Rol {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int rol_id;
+    private int rolId;
     @Column(name = "name")
     private String name;
 
-    public int getRol_id() {
-        return rol_id;
+    public int getRolId() {
+        return rolId;
     }
 
-    public void setRol_id(int rol_id) {
-        this.rol_id = rol_id;
+    public void setRolId(int rolId) {
+        this.rolId = rolId;
     }
 
     public String getName() {
